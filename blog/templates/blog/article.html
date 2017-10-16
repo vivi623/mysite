@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta content="text/html" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../../static/css/style.css"/>
+	<title>{{article.title}} -- 我的博客</title>
+	<script type="text/javascript" src="../../static/javascript/bdshare.js"></script>
+	<script type="text/javascript" src="../../static/javascript/submit.js"></script>
+</head>
+
+<body>
+	<div id="head">
+		<h1>我的博客</h1>
+		<ul>
+			<li><a href="/blog">首页</a></li>
+		</ul>
+		<div id="searcharea">
+		    <form method="get" action=".">
+		    	<input type="text" id="content"></input>
+		    	<h3 id="search" onclick="submit()">搜索</h3>
+		    </form>
+		</div>
+	</div>	
+	<div id="wrap">
+		<div class="article">
+			<h1>{{article.title}}</h1>
+			<div id="info">
+				<h2>{{article.pubdate}}</h2>
+				<h2>
+				标签：
+				{% for tag in tags %}
+				<a href = "/blog/tag={{tag.id}}">{{tag.name}}</a> 
+				{% endfor %}
+				</h2>
+			</div>
+			<div class="maintext">{{article.content|safe}}</div>
+		<div class="comment">
+
+
+		</div>
+
+	</div>
+</body>
+</html>

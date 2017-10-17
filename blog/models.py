@@ -5,9 +5,15 @@ from django.db import models
 class Category(models.Model):
     name = models.CharField('name',max_length=16)
 
+    class Meta:
+        app_label = "blog"
+
 
 class Tag(models.Model):
     name = models.CharField('name',max_length=16)
+
+    class Meta:
+        app_label = "blog"
 
 
 class Blog(models.Model):
@@ -17,6 +23,9 @@ class Blog(models.Model):
     created= models.DateTimeField('pubdate',auto_now_add=True)
     category = models.ForeignKey(Category,verbose_name='category')
     tags = models.ManyToManyField(Tag,verbose_name='name')
+
+    class Meta:
+        app_label = "blog"
 
     # class Meta: 自定义数据库表中的名称 命令：python manage.py inspectdb --database=databasecopy
     #     managed = False
@@ -30,6 +39,9 @@ class Comment(models.Model):
     content = models.CharField('Content',max_length=250)
 
     created = models.DateTimeField('pubdate',auto_now_add=True)
+
+    class Meta:
+        app_label = "blog"
 
 
 

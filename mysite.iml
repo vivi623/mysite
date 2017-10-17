@@ -21,6 +21,7 @@
     <option name="TEMPLATE_FOLDERS">
       <list>
         <option value="$MODULE_DIR$/blog/templates" />
+        <option value="$MODULE_DIR$/showinfo/templates" />
       </list>
     </option>
   </component>

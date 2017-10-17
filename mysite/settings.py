@@ -11,11 +11,11 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+
 # from blog.blogrouter import BlogRouter
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -27,7 +27,6 @@ SECRET_KEY = '3*or=cpb(bn428vh@4kntm+ootw!c8)8#nz_6$ia=wnbe0=oge'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -59,7 +58,7 @@ TEMPLATES = [
         'DIRS': [
             BASE_DIR + '/blog/templates/',
             BASE_DIR + '/showinfo/templates/',
-                  ],
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -73,7 +72,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mysite.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
@@ -95,10 +93,18 @@ DATABASES = {
         'HOST': 'localhost',
         'PROT': '3306'
     },
+    'showinfodb': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pythondata',
+        'USER': 'root',
+        'PASSWORD': 'vivi0623',
+        'HOST': 'localhost',
+        'PROT': '3306'
+    },
 }
 
 # 多数据源路由
-DATABASE_ROUTERS = ['blog.blogrouter.BlogRouter']
+DATABASE_ROUTERS = ['blog.blogrouter.BlogRouter', 'showinfo.showinforouter.ShowinfoRouter']
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
@@ -118,7 +124,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 
@@ -131,7 +136,6 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/

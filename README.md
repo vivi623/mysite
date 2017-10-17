@@ -8,7 +8,7 @@ python manage.py migrate appname  #同步数据库
 ~~~
 2.根据数据库已有表生成Model
 ~~~
-python manage.py inspectdb
+python manage.py inspectdb --database=dbname
 ~~~
 3.创建一个app
 ~~~

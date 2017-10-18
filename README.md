@@ -14,4 +14,7 @@ python manage.py inspectdb --database=dbname
 ~~~
 python manage.py startapp appname
 ~~~
-
+4.启动服务
+~~~
+python manage.py runserver 0.0.0.0:8000
+~~~

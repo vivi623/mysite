@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 
-import matplotlib as mpl
 from matplotlib.figure import Figure
 from matplotlib.backends.backend_agg import FigureCanvasAgg
 import matplotlib.pyplot as plt
@@ -13,7 +12,7 @@ import showinfo.models as showinfoModel
 
 def index(request):
     # return "imagepage.html"
-    return render(request,'imagepage.html')
+    return render(request, 'showinfo/imagepage.html')
 
 # 绘制表格
 def genmat1(request):

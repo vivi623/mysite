@@ -14,8 +14,6 @@ def get_html(url):
     try:
         r = requests.get(url,timeout=30)
         r.raise_for_status()
-        #这里我们知道百度贴吧的编码是utf-8，所以手动设置的。爬去其他的页面时建议使用：
-        # r.endcodding = r.apparent_endconding
         r.encoding='utf-8'
         return r.text
     except:
@@ -35,6 +33,7 @@ def get_article(url):
             content['url'] = aobj['href']
             content['content'] = getContent(address + aobj['href'])
             content['abstract'] = litag.find('p',{'class': 'abstract'})
+            content['author'] = litag.find('div',{'class': 'name'}).find('a', {'class': 'blue-link'}).text
             contents.append(content)
         except:
             print('出了点小问题')
@@ -49,12 +48,13 @@ def getContent(url):
     currtime = time.localtime()
     # 创建保存图片的目录
     dirname = time.strftime("%Y%m%d", currtime)
-    path = '/blog/static' + dirname
+    path = '/blog/static/' + dirname
     mkdir(path)
     imageprefix = time.strftime("%Y%m%d%H%M%S", currtime)
 
-    for image in imagelist:
-        imagesrc = image.find('img')['src']
+    for divimage in imagelist:
+        image = divimage.find('img')
+        imagesrc = image['src']
         imagedata = requests.get('http:'+ imagesrc).content
         imagepath = path+'/'+ imageprefix+''+random.randint(101, 999)+'.png'
         with open(imagepath, 'wb') as f:
@@ -62,7 +62,7 @@ def getContent(url):
         image['src'] = imagepath
         del image['data-original-src']
 
-    return divObj.text
+    return divObj
 
 
 def mkdir(path):
@@ -71,3 +71,11 @@ def mkdir(path):
     '''
     if not os.path.exists(path):
         os.mkdir(path)
+
+# 保存数据
+def save(contents):
+    print(contents)
+
+# 生成静态页
+def createStaticHtml(content):
+    print(content)

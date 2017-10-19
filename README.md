@@ -18,3 +18,8 @@ python manage.py startapp appname
 ~~~
 python manage.py runserver 0.0.0.0:8000
 ~~~
+### 环境准备
+1.numpy,scipy,pandas
+~~~
+http://www.lfd.uci.edu/~gohlke/pythonlibs/
+~~~

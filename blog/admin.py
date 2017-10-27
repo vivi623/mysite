@@ -4,7 +4,7 @@ from django.contrib import admin
 import blog.models as models
 
 class BlogAdmin(admin.ModelAdmin):
-    list_display = ('title','author','created')
+    list_display = ('title','author','pubtime')
 
-admin.site.register(models.Blog,BlogAdmin)
+admin.site.register(models.Article, BlogAdmin)
 

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>抓取文章</title>
+    <script src="/common_static/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div>
+    <input id="jianshu" type="button" value="简书">
+    <span id="jscb"></span>
+</div>
+
+
+
+</body>
+
+<script>
+    $(function () {
+        $("#jianshu").click(function () {
+            $.getJSON('/spider/jianshu/',function(ret){
+                alert(ret)
+                //返回值 ret 在这里是一个字典
+                $('#jscb').html("共生成" + ret.num + "条文章");
+                // 也可以用 ret['twz']
+            })
+        });
+    });
+</script>
+
+</html>
+

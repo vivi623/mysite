@@ -1,33 +1,198 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>首页</title>
+	<title>彩柚 | 做一个快乐的小画家</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-Control" content="no-transform " />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="description" content="一个关于画画的网站" />
+    <meta name="keywords" content="绘画,彩铅,油画,水粉" />
+    <link rel="shortcut icon" href="/common_static/images/favicon.ico" />
+    <link rel='stylesheet' id='sytle-css'  href='/common_static/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='home-css'  href='/common_static/css/home.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='yzipi-pc-css'  href='/common_static/css/yzipi-pc.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='yzipi-ipad-css'  href='/common_static/css/yzipi-ipad.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='yzipi-phone2-css'  href='/common_static/css/yzipi-phone2.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='yzipi-phone-css'  href='/common_static/css/yzipi-phone.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-syntax-css-css'  href='/common_static/css/wp-syntax.css' type='text/css' media='all' />
+    <script type='text/javascript' src='/common_static/js/html5shiv.js'></script>
+    <script type='text/javascript' src='/common_static/js/css3-mediaqueries.js'></script>
+    <script type='text/javascript' src='/common_static/js/selectivizr-min.js'></script>
+    <script type='text/javascript' src='/common_static/js/jquery.1.11.1.js'></script>
+
 </head>
 <body>
-	<div id="head">
-		<h1>我的博客</h1>
-		<ul>
-			<li><a href="/blog">首页</a></li>
-		</ul>
-		<div id="searcharea">
-		    <form method="get" action=".">
-                <span><h3 id="search" onclick="submit()">搜索</h3></span>
-		    	<input type="text" id="content"></input>
-		    </form>
-		</div>
-	</div>	
-	<div id="wrap">
-		{% if latest_blog_list %}
-		<ul>
-			{% for article in latest_blog_list %}
-			<li class="latestblog"><a href="/blog/{{article.id}}">
-				<h4>{{article.title}}</h4></a>
-				<span id="right">{{article.pubdate}}</span>
-				<div class="part">{{article.content|safe}}</div>
-			</li>
-			{% endfor %}
-		</ul>
-		{% endif %}
-	</div>
+<header id="header-web">
+    <div class="header-main">
+
+        <hgroup class="logo">
+            <h1><a href="http://www.91painting.com/" title="彩柚" rel="home">
+                <img src="/common_static/images/logo.png" alt="彩柚"></a></h1>
+        </hgroup> <!--logo-->
+
+        <!--menu-->
+        <nav class="header-nav">
+            <ul id="menu-nav" class="menu">
+                <li id="menu-item-4" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-4">
+                    <a href="http://www.91painting.com/">首页</a>
+                </li>
+            </ul>
+        </nav> <!--header-nav-->
+
+        <!--header-main-->
+    </div>
+</header>
+<!--header-web-->
+
+<div id="main">
+    {#  文章搜索  #}
+    <div id="soutab">
+        <form method="get" class="search" action="http://www.91painting.com/" >
+            <input class="text" type="text" name="s" placeholder=" 请输入关键词" value="">
+            <input class="butto" value="" type="submit">
+        </form>
+    </div>
+
+    {# 文章列表#}
+    <div id="container">
+        {% if latest_blog_list %}
+            {% for article in latest_blog_list %}
+                <section class="list">
+                    <a href="#" class="up">{{article.upnum}}</a>
+                    <div class="mecc">
+                        <h2 class="mecctitle">
+                            <a href="/blog/{{article.id}}" target="_blank">
+                                {{article.title}}
+                            </a>
+                        </h2>
+                        <address class="meccaddress">
+                            <time>{{article.pubtime}}</time>
+                            -
+                            <a href="#cate"
+                               rel="category tag">{{article.catename}}</a>
+                            - 阅 {{article.readnum}}
+                        </address>
+                    </div>
+                    <span class="titleimg">
+                        <a href="/blog/{{article.id}}" target="_blank">
+                            <img width="1000" height="610" src="{{article.imageurl}}"
+                                 class="attachment-Large wp-post-image" alt="图片"/>
+                        </a>
+                    </span>
+                    <p>{{article.abstract|safe}}</p>
+
+                    <div class="clear"></div>
+                </section>
+                <div class="clear"></div>
+            {% endfor %}
+        {% endif %}
+        <!--page-->
+        <div class="pagenavi">
+            <span class="page-numbers">1 / 15 </span>
+            <span class='page-numbers current'>1</span>
+            <a class='page-numbers' href='#' title='第 2 页'>2</a>
+            <a class='page-numbers' href='#' title='第 3 页'>3</a>
+            <span class="page-numbers">...</span>
+            <a class='page-numbers' href='#' title='最末页'>15</a>
+            <a class='page-numbers' href='#' title='下一页'>下一页</a>
+        </div> <!--Page End-->
+
+        <nav class="navigation">
+            <div class="nav-previous">
+                <a href="#" >下一页</a>
+            </div>
+        </nav><!-- .navigation -->
+    </div>
+
+    {# 左侧标签 #}
+    <aside id="sitebar">
+        {# 热门标签 #}
+        <div class="sitebar_list">
+            <div class="wptag">
+                <span class="tagtitle">热门标签 ...</span>
+                <div class="tagg">
+                    {% if tag_list %}
+                    <ul id="menu-tag" class="menu">
+                        {% for tag in tag_list %}
+                        <li id="menu-item-2882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2882">
+                            <a href="#">{{ tag.name }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div> <!-- sitebar_list end-->
+
+        {# 热门文章 #}
+        <div class="sitebar_list">
+            <h4 class="sitebar_title">热评文章</h4>
+            {% if latest_blog_list %}
+            <ul class="sitebar_list_ul">
+                {% for article in latest_blog_list %}
+                <li><a href="/blog/{{article.id}}" title="{{article.title}}" target="_blank">
+                    {{article.title}}</a></li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </div>
+        <a href="#" class="yund" target="_blank">
+            <img src="/images/yund.png" >
+        </a>
+    </aside>
+    <div class="clear"></div>
+</div>
+
+{# footer部分 #}
+<footer id="dibu">
+    <div class="about">
+        <div class="right">
+            <ul id="menu-bottom-nav" class="menu">
+                <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a href="#about">关于我们</a></li>
+                <li id="menu-item-3013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3013"><a href="#contaxt">联系我们</a></li>
+                <li id="menu-item-1953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1953"><a href="#link">友情连接</a></li>
+                <li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a href="#juanz">打赏彩柚</a></li>
+            </ul>
+            <p class="banquan"> 彩柚 ， 做一个快乐的小画家！  </p>
+        </div>
+        <div class="left">
+            <div class="bottomlist">
+                <div class="xinlan">
+                    <a href="#" target="_blank" ><img src="/images/xinlan.png" alt="彩柚新浪微博"  title="彩柚新浪微博" ></a>
+                </div>
+                <div class="weixin2">
+                    <div class="weixin">
+                        <img src="/images/weixin.png" alt="彩柚微信公众号" title="彩柚微信公众号"  >
+                        <img src="/images/yzipi6.png" class="xixii" alt="彩柚微信公众号" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--about-->
+
+    <div class="bottom">
+        <a href="http://www.91painting.com">彩柚</a> / <a href="#" target="_blank">标签</a> / <a href="#" target="_blank">归档</a>
+        / <a href="#" rel="external nofollow" target="_blank"> 粤ICP备13063893号-6 </a>
+        <div class="tongji">
+        </div>
+    </div>
+
+    <div class="scroll" id="scroll" style="display:none;"> ︿ </div>
+    <script type="text/javascript">
+        $(function(){
+            showScroll();
+            function showScroll(){
+                $(window).scroll( function() {
+                    var scrollValue=$(window).scrollTop();
+                    scrollValue > 500 ? $('div[class=scroll]').fadeIn():$('div[class=scroll]').fadeOut();
+                } );
+                $('#scroll').click(function(){
+                    $("html,body").animate({scrollTop:0},200);
+                });
+            }
+        })
+    </script>
+</footer>
 </body>
 </html>

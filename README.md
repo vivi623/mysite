@@ -18,6 +18,10 @@ python manage.py startapp appname
 ~~~
 python manage.py runserver 0.0.0.0:8000
 ~~~
+5.静态文件手机
+~~~
+python manage.py collectstatic
+~~~
 ### 环境准备
 1.numpy,scipy,pandas
 ~~~

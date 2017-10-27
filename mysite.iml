@@ -22,6 +22,7 @@
       <list>
         <option value="$MODULE_DIR$/blog/templates" />
         <option value="$MODULE_DIR$/showinfo/templates" />
+        <option value="$MODULE_DIR$/spider/templates" />
       </list>
     </option>
   </component>

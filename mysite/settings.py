@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 
 import os
 
-# from blog.blogrouter import BlogRouter
+TIME_ZONE = 'Asia/Shanghai'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '3*or=cpb(bn428vh@4kntm+ootw!c8)8#nz_6$ia=wnbe0=oge'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['10.0.24.91']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'blog',
     'showinfo',
+    'spider',
 ]
 
 MIDDLEWARE = [
@@ -142,3 +143,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR,'common_static')
+COMMONSTATIC_URL = '/common_static/'
+STATICFILES_DIR =(
+    os.path.join(BASE_DIR, COMMONSTATIC_URL)
+)

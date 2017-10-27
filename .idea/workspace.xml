@@ -2,36 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2da48e-c9ea-4159-9187-bbe970db23cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/home.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/wp-syntax.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/yzipi-ipad.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/yzipi-pc.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/yzipi-phone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/css/yzipi-phone2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/css3-mediaqueries.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/jquery.1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/selectivizr-min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/static/js/zan.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/jquery-1.11.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/templates/spider/spider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spider/urls.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0002_auto_20171013_1450.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20171013_1847.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/blog/migrations/0004_auto_20171013_1853.py" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/fonts/Roboto-Bold-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/fonts/Roboto-Light-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/fonts/Roboto-Regular-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202942481.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949172.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949300.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949345.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949532.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949638.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949842.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202949958.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202950119.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202951222.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202951226.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202951406.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202951876.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952102.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952129.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952291.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952372.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952373.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952395.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952501.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952539.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952566.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202952630.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202953404.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202953539.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202953662.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202954142.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202954212.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202954349.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202954589.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/images/jianshu/20171024/20171024202955922.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/changelists.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/dashboard.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/fonts.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/forms.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/login.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/css/widgets.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/fonts/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/fonts/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/calendar-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/gis/move_vertex_off.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/gis/move_vertex_on.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-addlink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-alert.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-calendar.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-changelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-clock.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-deletelink.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-no.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-unknown-alt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-unknown.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/icon-yes.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/inline-delete.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/search.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/selector-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/sorting-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/tooltag-add.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/img/tooltag-arrowright.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/SelectBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/SelectFilter2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/actions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/actions.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/admin/DateTimeShortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/admin/RelatedObjectLookups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/cancel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/change_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/collapse.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/inlines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/inlines.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/jquery.init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/popup_response.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/prepopulate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/prepopulate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/prepopulate_init.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/timeparse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/urlify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/vendor/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/vendor/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/vendor/xregexp/xregexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/admin/js/vendor/xregexp/xregexp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/home.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/wp-syntax.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/yzipi-ipad.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/yzipi-pc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/yzipi-phone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/css/yzipi-phone2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/js/css3-mediaqueries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/js/jquery.1.11.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/js/selectivizr-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common_static/js/zan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/showinfo/migrations/0001_initial.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/article.html" afterPath="$PROJECT_DIR$/blog/templates/blog/article.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/templates/blog/index.html" afterPath="$PROJECT_DIR$/blog/templates/blog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite.iml" afterPath="$PROJECT_DIR$/mysite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/urls.py" afterPath="$PROJECT_DIR$/mysite/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spider/views.py" afterPath="$PROJECT_DIR$/spider/views.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -160,9 +236,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="1932" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -188,24 +265,6 @@
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -404,7 +463,7 @@
       <workItem from="1508132978251" duration="45708000" />
       <workItem from="1508652649352" duration="7588000" />
       <workItem from="1508725899240" duration="49057000" />
-      <workItem from="1509011526573" duration="1231000" />
+      <workItem from="1509011526573" duration="2150000" />
     </task>
     <task id="LOCAL-00001" summary="1. 增加了数据库路由&#10;2. 新增显示绘图的app，用于显示matplotlib，pandas绘制的图片">
       <created>1508225532612</created>
@@ -441,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508411319879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="增加显示页面样式">
+      <created>1509066795621</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509066795621</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -453,7 +519,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125383000" />
+    <option name="totallyTimeSpent" value="126302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,7 +568,8 @@
     <MESSAGE value="2.显示两个柱图" />
     <MESSAGE value="新建爬虫示例" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="增加显示页面样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加显示页面样式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -578,6 +645,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -608,6 +676,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -656,6 +725,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
           <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -684,6 +754,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="114" column="4" lean-forward="false" selection-start-line="114" selection-start-column="4" selection-end-line="114" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -691,6 +762,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="1010" column="0" lean-forward="false" selection-start-line="1010" selection-start-column="0" selection-end-line="1010" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -698,6 +770,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -726,6 +799,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -781,6 +855,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -789,6 +864,7 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="431">
             <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -814,6 +890,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -843,6 +920,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -850,6 +930,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16128">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -857,6 +940,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

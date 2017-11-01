@@ -60,6 +60,7 @@ TEMPLATES = [
         'DIRS': [
             BASE_DIR + '/blog/templates/',
             BASE_DIR + '/showinfo/templates/',
+            BASE_DIR + '/spider/templates/',
         ],
         'APP_DIRS': True,
         'OPTIONS': {
